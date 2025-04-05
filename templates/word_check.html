@@ -1,0 +1,29 @@
+{% extends "base_page.html" %}
+
+{% block page-title %}
+Проверка знания определния слова
+{% endblock %}
+
+{% block page-lead %}
+Определение выбирается случайно из словаря
+{% endblock %}
+
+{% block content %}
+<div class="container-sm px-5 py-5" id="word-check">
+    <form method="post">
+        <div class="row px-5 py-4">
+            <h2>Случайное определение:</h2>
+        </div>
+        <div class="row px-5 py-4">
+            <h3>{{ word_definition.definition }}</h3>
+            <div class="col-md-6">
+                <label for="answer">Ваш ответ:</label>
+                <input type="text" class="form-control input-lg" name="answer" id="answer" placeholder="ex: equation" value required>
+            </div>
+        </div>
+        <div class="row px-5 py-2">
+            <button type="submit" class="btn btn-primary" formaction="/word-answer")>Проверить</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

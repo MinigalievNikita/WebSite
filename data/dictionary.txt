@@ -1,0 +1,5 @@
+equation;a mathematical statement that shows two amounts are equal using mathematical symbols;уравнение;user2
+phenomenon;something that exists or happens, usually something unusual;феномен;user1
+rocket;a tube-shaped vehicle for travelling in space;ракета;user
+telemetry;the science or process of collecting information about objects that are far away and sending the information somewhere electronically;телеметрия;user
+thrust;a strong push or the power used to push something forward;тяга;user3
